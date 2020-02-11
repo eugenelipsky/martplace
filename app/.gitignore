@@ -2,7 +2,7 @@
 .AppleDouble
 .LSOverride
 .vs
-.idea/
+.idea
 
 node_modules/
 app/css/
