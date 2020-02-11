@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6193b04c-7d0c-4af4-89ce-baa29922efa4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
@@ -51,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581402634690</updated>
       <workItem from="1581402641337" duration="156000" />
-      <workItem from="1581402941778" duration="4171000" />
+      <workItem from="1581402941778" duration="10378000" />
     </task>
     <servers />
   </component>

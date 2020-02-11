@@ -2,3 +2,33 @@ $grey-color: #555555;
 $blue-color: #0674ec;
 $lightgrey-color: #eff1f5;
 $darkgrey-color: #333333;
+
+%rounded-button-white {
+  color: $blue-color;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 13px 32px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+
+  &:hover {
+    color: #fff;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #fff;
+  }
+}
+
+%rounded-button-transparent {
+  color: #fff;
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 13px 32px;
+  border: 1px solid #fff;
+
+  &:hover {
+    color: $blue-color;
+    background-color: #fff;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.1);
+  }
+}
