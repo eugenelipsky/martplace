@@ -375,6 +375,7 @@
 
 .featured__slider {
   position: relative;
+
   .slick-track {
     display: flex;
   }
@@ -437,10 +438,11 @@
   }
 
   &-filter {
-    a{
+    a {
       display: flex;
       align-items: center;
     }
+
     span {
       color: #747b86;
       margin-right: 25px;
@@ -503,8 +505,9 @@
 
 .newest__item-img {
   max-height: 230px;
+
   &:hover + .newest__item-btn {
-      display: block;
+    display: block;
   }
 }
 
@@ -517,6 +520,7 @@
   &:hover {
     display: block;
   }
+
   .more__info {
     @extend %rounded-button-transparent;
     font-size: 15px;
@@ -550,12 +554,12 @@
   &__name {
     display: flex;
     align-items: center;
+
     span {
       padding-left: 9px;
       font-size: 15px;
       color: #000;
       font-weight: 700;
-      font-size: 15px;
     }
   }
 
@@ -595,6 +599,7 @@
   display: flex;
   align-items: center;
   padding-right: 130px;
+
   span {
     font-size: 15px;
     color: #6f7d8d;
@@ -644,6 +649,7 @@
     font-size: 36px;
     line-height: 36px;
   }
+
   &-descr {
     font-size: 18px;
     line-height: 36px;
@@ -699,4 +705,112 @@
   color: #ff6a6d;
 }
 
+.whychoose__inner {
+  padding: 120px 0 120px;
+  text-align: center;
+}
+
+.whychoose__title {
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 30px;
+
+  span {
+    color: $blue-color;
+  }
+}
+
+.whychoose__descr {
+  max-width: 672px;
+  right: 0;
+  left: 0;
+  margin: 0 auto 60px;
+}
+
+.whychoose__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.whychoose__item {
+  max-width: 361px;
+  padding: 56px 35px 62px 35px;
+  margin-bottom: 35px;
+  box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.08);
+  position: relative;
+
+  &::before {
+    counter-increment: items;
+    content: '0'counter(items);
+    position: absolute;
+    font-size: 48px;
+    color: #5c87f8;
+    top: 20px;
+    left: 20px;
+    opacity: .2;
+    font-weight: 300;
+  }
+
+  &-img {
+    min-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 23px;
+  }
+}
+
+.payment-icon {
+  svg {
+    path {
+      fill: $blue-color;
+    }
+  }
+}
+
+.quality-icon {
+  svg {
+    path {
+      fill: #7f4ec2;
+    }
+  }
+}
+
+.secure-icon {
+  svg {
+    path {
+      fill: #77de51;
+    }
+  }
+}
+
+.code-icon {
+  svg {
+    path {
+      fill: #feb71d;
+    }
+  }
+}
+
+.update-icon {
+  svg {
+    path {
+      fill: #58c9e9;
+    }
+  }
+}
+
+.support-icon {
+  svg {
+    path {
+      fill: #ff6a6d;
+    }
+  }
+}
+
 @import 'media';
+
