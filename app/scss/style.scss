@@ -812,5 +812,63 @@
   }
 }
 
+//become user section start
+
+.becomeuser__inner {
+  display: flex;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.becomeuser__sell {
+  background-image: url(../img/sell_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 960px;
+  width: 100%;
+  padding: 100px 10px;
+}
+
+.becomeuser__buy {
+  background-image: url(../img/buy_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 960px;
+  width: 100%;
+  padding: 100px 10px;
+}
+
+.becomeuser__img {
+  margin-bottom: 50px;
+}
+
+.becomeuser__title{
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.becomeuser__descr {
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.becomeuser__btn {
+  a {
+    @extend %rounded-button-white;
+  }
+  .sell-btn {
+    color: $blue-color;
+  }
+
+  .buy-btn {
+    color: $purple-color;
+  }
+}
+
+//become user section end
+
 @import 'media';
 
