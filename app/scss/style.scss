@@ -74,6 +74,7 @@
     border-radius: 30px;
     position: absolute;
     right: 0;
+    cursor: pointer;
   }
 }
 
@@ -190,7 +191,7 @@
     color: #fff;
     max-width: 223px;
     width: 100%;
-
+    cursor: pointer;
   }
 }
 
@@ -393,6 +394,7 @@
     background-color: $purple-color;
     top: -127px;
     outline: none;
+    cursor: pointer;
 
     &.slick-prev {
       right: 78px;
@@ -468,6 +470,7 @@
     font-size: 15px;
     color: #747b86;
     padding: 7px 15px;
+    cursor: pointer;
 
     &:hover {
       background-color: $blue-color;
@@ -1100,6 +1103,173 @@
 }
 
 //joinus section end
+//footer section start
+
+.footer {
+  background-color: #262b30;
+}
+
+.footer__top-inner {
+  padding: 115px 0 120px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #ababab;
+}
+
+.footer__top-info {
+  max-width: 264px;
+
+  a {
+    color: #ababab;
+  }
+
+  &__about {
+    margin: 34px 0;
+  }
+
+  &__phone {
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+
+    span {
+      padding-left: 10px;
+    }
+  }
+
+  &__email {
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+
+    a {
+      padding-left: 10px;
+    }
+  }
+
+  &__address {
+    display: flex;
+    align-items: center;
+    span {
+      padding-left: 10px;
+    }
+  }
+}
+
+.footer__title {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.footer__top-menu {
+  max-width: 135px;
+}
+
+.footer__top-menu__list {
+  li {
+    padding-bottom: 3px;
+    a {
+      font-size: 15px;
+      color: #ababab;
+    }
+  }
+}
+
+.footer__top-newsletter {
+  max-width: 360px;
+
+  &__text {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  form {
+    position: relative;
+    display: flex;
+    input {
+      background-color: #fff;
+      border: none;
+      border-radius: 30px;
+      height: 50px;
+      padding: 0 120px 0 30px;
+      width: 100%;
+    }
+
+    input::placeholder {
+      font-size: 15px;
+      line-height: 28;
+      color: #ababab;
+    }
+
+    button {
+      border: none;
+      height: 50px;
+      background-color: $blue-color;
+      color: #fff;
+      border-radius: 30px;
+      padding: 0 31px;
+      position: absolute;
+      right: 0;
+      cursor: pointer;
+    }
+  }
+}
+
+.footer__top-social__link {
+  margin-top: 42px;
+  li {
+    display: inline-block;
+    & + li {
+      margin-left: 13px;
+    }
+  }
+
+  a {
+    background-image: url(../img/icons/social_footer_sprite.png);
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.link-twitter {
+  background-position: -42px 0;
+}
+
+.link-google {
+  background-position: 0 -42px;
+}
+
+.link-pinterest {
+  background-position: -42px -42px;
+}
+
+.link-linkedin {
+  background-position: -84px 0;
+}
+
+.link-behance {
+  background-position: -84px -42px;
+}
+
+.footer__copy {
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #192027;
+
+  &-text {
+    color: #999999;
+
+    span {
+      color: #fff;
+    }
+  }
+}
+
+//footer section end
 @import 'media';
 
 
