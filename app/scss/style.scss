@@ -991,6 +991,7 @@
 .newest__item-stats {
   display: flex;
   line-height: 30px;
+
   span {
     font-size: 15px;
     color: #7e7e7e;
@@ -1017,6 +1018,7 @@
 .views__num {
   display: flex;
   align-items: center;
+
   span {
     padding-left: 3px;
   }
@@ -1025,10 +1027,12 @@
 .comments__num {
   display: flex;
   align-items: center;
+
   span {
     padding-left: 3px;
   }
 }
+
 //news section end
 
 //guarantee section start
@@ -1051,9 +1055,11 @@
   &-title {
     font-size: 24px;
     margin-top: 30px;
+
     .blue-color {
       color: $blue-color;
     }
+
     .purple-color {
       color: $purple-color;
     }
@@ -1061,6 +1067,39 @@
 }
 
 //guarantee section end
+//joinus section start
+
+.joinus {
+  background-image: url(../img/joinus_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  padding: 110px 0;
+}
+
+.joinus__inner {
+  text-align: center;
+  color: #fff;
+}
+
+.joinus__title {
+  font-size: 36px;
+  padding-bottom: 24px;
+}
+
+.joinus__descr {
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.joinus__btn {
+  a {
+    @extend %rounded-button-white;
+  }
+}
+
+//joinus section end
 @import 'media';
 
 
