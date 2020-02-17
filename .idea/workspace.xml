@@ -71,7 +71,9 @@
       <workItem from="1581597725702" duration="8024000" />
       <workItem from="1581758442825" duration="176000" />
       <workItem from="1581848048638" duration="151000" />
-      <workItem from="1581860725352" duration="6902000" />
+      <workItem from="1581860725352" duration="7123000" />
+      <workItem from="1581933456304" duration="21000" />
+      <workItem from="1581933523938" duration="1088000" />
     </task>
     <servers />
   </component>
@@ -90,6 +92,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="240" y="48" key="#Plugins" timestamp="1581933480326">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="48" key="#Plugins/0.0.1280.800@0.0.1280.800" timestamp="1581933480326" />
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581933236495">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1581933236495" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1581612440651">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
