@@ -742,7 +742,7 @@
 
   &::before {
     counter-increment: items;
-    content: '0'counter(items);
+    content: '0' counter(items);
     position: absolute;
     font-size: 48px;
     color: #5c87f8;
@@ -844,7 +844,7 @@
   margin-bottom: 50px;
 }
 
-.becomeuser__title{
+.becomeuser__title {
   font-size: 30px;
   color: #fff;
   margin-bottom: 35px;
@@ -859,6 +859,7 @@
   a {
     @extend %rounded-button-white;
   }
+
   .sell-btn {
     color: $blue-color;
   }
@@ -869,6 +870,166 @@
 }
 
 //become user section end
+//review section start
+.reviews__inner {
+  margin-bottom: 120px;
+}
 
+.reviews__title {
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 30px;
+  text-align: center;
+
+  span {
+    color: $blue-color;
+  }
+}
+
+.reviews__descr {
+  max-width: 672px;
+  right: 0;
+  left: 0;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.reviews__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__item {
+  box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.08);
+  max-width: 555px;
+  padding: 50px 40px;
+  border-left: 2px solid $blue-color;
+}
+
+.reviews__item-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__name {
+    font-size: 20px;
+    color: #000;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+
+  &__img {
+    //padding-right: 20px;
+  }
+}
+
+.reviews__item-author__info {
+  max-width: 300px;
+  margin-right: 100px;
+}
+
+.reviews__item-text {
+  margin-top: 30px;
+}
+
+.reviews__btn-all {
+  text-align: center;
+  margin-top: 60px;
+
+  a {
+    @extend %rounded-button-blue;
+  }
+}
+
+//review section end
+//news section start
+.news {
+  background-color: #eff1f5;
+}
+
+.news__inner {
+  padding: 120px 0;
+}
+
+.news__title {
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 30px;
+  text-align: center;
+
+  span {
+    color: $blue-color;
+  }
+}
+
+.news__descr {
+  max-width: 672px;
+  right: 0;
+  left: 0;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.news__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__item {
+  max-width: 360px;
+  position: relative;
+
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: $lightgrey-color;
+    position: absolute;
+    bottom: 50px;
+  }
+}
+
+.newest__item-stats {
+  display: flex;
+  line-height: 30px;
+  span {
+    font-size: 15px;
+    color: #7e7e7e;
+  }
+}
+
+.pub__date {
+  span {
+    color: #999999;
+  }
+}
+
+.pub__date {
+  display: flex;
+  align-items: center;
+  padding-right: 47px;
+  border-right: 1px solid #ececec;
+
+  span {
+    padding-left: 3px;
+  }
+}
+
+.views__num {
+  display: flex;
+  align-items: center;
+  span {
+    padding-left: 3px;
+  }
+}
+
+.comments__num {
+  display: flex;
+  align-items: center;
+  span {
+    padding-left: 3px;
+  }
+}
+//news section end
 @import 'media';
+
 
