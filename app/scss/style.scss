@@ -44,13 +44,14 @@
   align-items: center;
   position: relative;
 }
-
+.menu__btn {
+  display: none;
+}
 .menu__list {
   display: flex;
   height: 80px;
   align-items: center;
   position: relative;
-
 
   li {
     color: $darkgrey-color;
@@ -1754,6 +1755,7 @@
   display: flex;
   justify-content: space-between;
   color: #ababab;
+  flex-wrap: wrap;
 }
 
 .footer__top-info {

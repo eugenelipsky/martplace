@@ -1,0 +1,45 @@
+@media (max-width: 1100px) {
+  .footer__top-info {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+
+    svg {
+      display: none;
+    }
+
+    .footer__top-box {
+      margin: 0 auto;
+      max-width: 500px;
+      width: 100%;
+    }
+  }
+  .footer__top-inner {
+    padding-top: 45px;
+    justify-content: center;
+  }
+
+  .footer__top-newsletter {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .footer__top-menu {
+    margin: 0 auto;
+  }
+
+  .footer__top-info__phone,
+  .footer__top-info__address,
+  .footer__top-info__email {
+    display: block;
+  }
+
+  .footer__top-social__link {
+    text-align: center;
+  }
+}
