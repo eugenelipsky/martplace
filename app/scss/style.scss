@@ -44,9 +44,11 @@
   align-items: center;
   position: relative;
 }
+
 .menu__btn {
   display: none;
 }
+
 .menu__list {
   display: flex;
   height: 80px;
@@ -1917,6 +1919,127 @@
 }
 
 //footer section end
+//products page start
+//search section start
+.search-min__wrapper {
+  background-image: url('../img/search_min_bg.jpg');
+  min-height: 281px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.search-min__content {
+  text-align: center;
+  color: #fff;
+  max-width: 555px;
+  margin: 0 auto;
+
+  form {
+    position: relative;
+    display: flex;
+    margin-bottom: 37px;
+
+    input {
+      background-color: #fff;
+      border: none;
+      border-radius: 30px;
+      height: 50px;
+      padding: 0 120px 0 30px;
+      width: 100%;
+    }
+
+    input::placeholder {
+      font-size: 15px;
+      line-height: 28;
+      color: #ababab;
+    }
+
+    button {
+      border: none;
+      height: 50px;
+      background-color: $blue-color;
+      color: #fff;
+      border-radius: 30px;
+      padding: 0 31px;
+      position: absolute;
+      right: 0;
+      cursor: pointer;
+    }
+  }
+}
+
+.search-min__title {
+  font-size: 26px;
+  margin-bottom: 28px;
+  padding-top: 87px;
+
+  span {
+    font-weight: 500;
+  }
+}
+
+.breadcrumbs {
+  padding-bottom: 30px;
+  .breadcrumbs__list {
+    li {
+      display: inline-block;
+
+      a {
+        color: #fff;
+        position: relative;
+        padding-right: 25px;
+
+        &::after {
+          content: '/';
+          position: absolute;
+          right: 5px;
+        }
+      }
+
+      span {
+        color: #bfcad7;
+      }
+    }
+  }
+}
+//search section end
+//filters section start
+.product-filters {
+  margin-bottom: 75px;
+  box-shadow: 0 2px 4px 0 rgba(108, 111, 115, 0.1);
+
+}
+.filters__inner {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.filters__product-category {
+  a + a {
+    margin-left: 40px;
+  }
+  .active {
+    color: $blue-color;
+  }
+}
+
+.filters__product-view {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eceff2;
+  border-radius: 3px;
+  padding: 11px 20px;
+  button {
+    border: none;
+    background-color: transparent;
+  }
+}
+//filter section end
+//products page end
 @import 'media';
 
 
