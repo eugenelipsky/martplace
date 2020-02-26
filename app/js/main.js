@@ -39,7 +39,7 @@ $(function(){
  });
 
  $('.list__filter').on('click', function () {
-  $('.products__item').addClass('list');
+  $('.products__item').addClass('list')
   $('.list__filter').addClass('active')
   $('.grid__filter').removeClass('active')
  });
@@ -48,7 +48,9 @@ $(function(){
   $('.products__item').removeClass('list')
   $('.grid__filter').addClass('active')
   $('.list__filter').removeClass('active')
- })
+ });
+
+ $('.styled__select').styler();
 
  var mixer = document.querySelector(".newest__items");
  if (mixer) {

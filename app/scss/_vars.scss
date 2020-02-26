@@ -59,6 +59,64 @@ $purple-color: #7347c1;
 
   &::before {
     content: '';
-  position: absolute;
+    position: absolute;
+  }
 }
+
+.styled__select {
+  &.jq-selectbox {
+    display: inline-block;
+    position: relative;
+
+
+    .jq-selectbox__trigger-arrow {
+      position: absolute;
+      top: 21px;
+      right: 20px;
+      width: 11px;
+      height: 6px;
+      background-image: url('../img/icons/lnr-chevron-down.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .jq-selectbox__select {
+      width: 223px;
+      height: 47px;
+      border-radius: 3px;
+      border: 1px solid #eceff2;
+      color: #747b86;
+      font-size: 14px;
+      line-height: 32px;
+    }
+
+    .jq-selectbox__select-text {
+      padding-left: 22px;
+      width: 164px !important;
+      padding-top: 6px;
+    }
+
+    .jq-selectbox__dropdown {
+      top: 40px;
+    }
+
+    .jq-selectbox__dropdown {
+      position: absolute;
+      background-color: #fff;
+      width: 223px;
+      margin-top: 8px;
+      padding: 22px;
+      font-size: 14px;
+      color: #747b86;
+      border-radius: 3px;
+      border: 1px solid #eceff2;
+
+      li {
+        &:hover {
+          color: $blue-color;
+        }
+      }
+    }
+  }
 }
