@@ -52,3 +52,13 @@ $purple-color: #7347c1;
     border: 1px solid $blue-color;
   }
 }
+
+.chevron__right {
+  padding-left: 19px;
+  position: relative;
+
+  &::before {
+    content: '';
+  position: absolute;
+}
+}
