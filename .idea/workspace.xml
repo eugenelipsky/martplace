@@ -22,17 +22,9 @@
     <list default="true" id="6193b04c-7d0c-4af4-89ce-baa29922efa4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/libs.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_libs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_libs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +96,8 @@
       <workItem from="1582409631765" duration="21618000" />
       <workItem from="1582574378165" duration="465000" />
       <workItem from="1582620118416" duration="6000" />
-      <workItem from="1582704152930" duration="10510000" />
+      <workItem from="1582704152930" duration="18063000" />
+      <workItem from="1582969733127" duration="4483000" />
     </task>
     <servers />
   </component>
@@ -135,22 +128,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1581933236495" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1582712665053">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1582919708920">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582712665053" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1582712665052">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582919708919" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1582919708917">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582712665052" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1582712665050">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582919708917" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1582919708915">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582712665050" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1582712665052">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582919708915" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1582919708918">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582712665052" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582919708918" />
     <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1582462001550">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -171,10 +164,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="142" key="IDE.errors.dialog/0.0.1280.800@0.0.1280.800" timestamp="1582716569760" />
-    <state x="305" y="185" key="run.anything.popup" timestamp="1582714666149">
+    <state x="305" y="185" key="run.anything.popup" timestamp="1582727591814">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1582714666149" />
+    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1582727591814" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582467178313">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

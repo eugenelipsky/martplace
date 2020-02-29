@@ -695,6 +695,7 @@
 .pages-link:hover {
   .dropdown__mega {
     display: block;
+    z-index: 20;
   }
 
   .pages {
@@ -2397,6 +2398,7 @@
         min-height: 213px;
       }
     }
+
     .products__item-img {
       display: none;
     }
@@ -2416,7 +2418,7 @@
     }
 
     .products__item-purchases,
-    .products__item-category{
+    .products__item-category {
       display: none;
     }
 
@@ -2491,4 +2493,207 @@
 
 //content end
 //products page end
+//single page start
+.topbanner {
+  background-image: linear-gradient(to left, #0d3ef2 0%, #4c1f9c 100%);
+}
+
+.topbanner__inner {
+  padding-top: 57px;
+  padding-bottom: 58px;
+}
+
+.topbanner__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+
+.singleproduct {
+  padding-top: 66px;
+  padding-bottom: 120px;
+  background-color: #eff1f5;
+}
+
+.singleproduct__box-main {
+  background-color: #fff;
+  max-width: 750px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 4px rgba(108, 111, 115, 0.1);
+  border-radius: 4px;
+}
+
+.singleproduct__box-img {
+  width: 100%;
+  padding-bottom: 27px;
+}
+
+.singleproduct__box-btn {
+  text-align: center;
+  padding-bottom: 27px;
+  margin-bottom: 27px;
+  border-bottom: 1px solid #e8e8e8;
+
+  a {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: #0674ec;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    width: 193px;
+    height: 53px;
+    line-height: 53px;
+    margin-right: 28px;
+  }
+
+  button {
+    width: 193px;
+    height: 53px;
+    color: $purple-color;
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #fff;
+
+    span {
+      padding-right: 9px;
+    }
+  }
+}
+
+.singleproduct__box-info {
+  padding: 0 30px;
+}
+
+.singleproduct__box-share {
+  padding-bottom: 40px;
+  text-align: center;
+  display: flex;
+  padding-left: 50%;
+  transform: translateX(-38%);
+}
+
+.singleproduct-share__btn {
+  button {
+    text-align: center;
+    width: 193px;
+    height: 53px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    font-size: 15px;
+    margin-right: 28px;
+
+    span {
+      padding-right: 9px;
+    }
+  }
+}
+
+.singleproduct-share__social {
+  display: flex;
+  align-items: center;
+
+  a + a {
+    padding-left: 11px;
+  }
+}
+
+.singleproduct__box-tabs {
+  max-width: 750px;
+  box-shadow: 0 2px 4px rgba(108, 111, 115, 0.1);
+}
+
+.tabs__content {
+  display: none; /* по умолчанию прячем все блоки */
+  padding: 0 30px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.tabs__content.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
+.tabs__caption {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 4px;
+
+  li {
+    font-size: 17px;
+    color: #000;
+    padding: 15px 30px;
+    border-top: 3px solid transparent;
+    position: relative;
+    border-right: 1px solid #e8e8e8;
+
+
+    &.active {
+      border-top: 3px solid $blue-color;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.tab-item__title {
+  padding: 80px 0 45px 0;
+  font-size: 28px;
+  color: #000;
+}
+
+.tab-item__unlist {
+  ul {
+    li {
+      padding-left: 28px;
+      position: relative;
+
+      &::before {
+        content: '';
+        background-image: url('../img/icons/checkmark.png');
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 13px;
+        height: 10px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+.tab-item__orlist {
+  ul {
+    li {
+      padding-left: 28px;
+      position: relative;
+
+      &::before {
+        counter-increment: items;
+        content: counter(items)'.';
+        position: absolute;
+        left: 0;
+        font-weight: 500;
+        color: #000;
+      }
+    }
+  }
+}
+
+.tab-item__img {
+  padding-bottom: 75px;
+}
+//single page end
 @import 'media';

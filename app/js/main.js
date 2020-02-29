@@ -52,6 +52,20 @@ $(function(){
 
  $('.styled__select').styler();
 
+ // $('.singleproduct__box-tabs .tab').on('click', function(event) {
+ //  var id = $(this).attr('data-id');
+ //  $('.singleproduct__box-tabs').find('.tab-item').removeClass('active-tab').hide();
+ //  $('.singleproduct__box-tabs .tabs').find('.tab').removeClass('active');
+ //  $(this).addClass('active');
+ //  $('#'+id).addClass('active-tab').fadeIn();
+ //  return false;
+ // });
+
+ $('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+  $(this).addClass('active').siblings().removeClass('active')
+      .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+ })
+
  var mixer = document.querySelector(".newest__items");
  if (mixer) {
   mixer = mixitup('.newest__items');

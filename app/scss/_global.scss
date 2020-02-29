@@ -8,6 +8,12 @@ html {
   box-sizing: inherit;
 }
 
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
